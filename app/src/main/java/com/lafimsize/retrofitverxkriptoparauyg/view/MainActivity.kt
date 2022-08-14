@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                         cryptoModels=ArrayList(it)
                         for (cryptoModel in cryptoModels){
                             println(cryptoModel.currency+"==="+cryptoModel.price)
-
+                            println("")
                         }
                     }
                 }
